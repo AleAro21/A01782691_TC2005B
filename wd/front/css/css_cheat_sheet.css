@@ -28,10 +28,22 @@
     border-right: transparent;
 }
 
+#border_3{
+    border: solid;
+    border-radius: 20px;
+}
+
 #maintitle{
     font-family:'Times New Roman', Times, serif;
     font-size: 34px;
 
+}
+
+#background-image{
+   
+    background-color: red;
+    width: 32px;
+    height: 32px;
 }
 
 h3{
