@@ -36,15 +36,52 @@
 #maintitle{
     font-family:'Times New Roman', Times, serif;
     font-size: 34px;
+    font-style:italic;
+    font-weight: bold;
 
 }
 
 #background-image{
-   
-    background-color: red;
-    width: 32px;
-    height: 32px;
+   background-image: url(/wd/front/images/download.jpg);
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    width: 280px;
+    height: 180px;
 }
+
+#color{
+    color: blue;
+}
+
+#font{
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+#list{
+    list-style:lower-greek;
+}
+
+.margin_center {
+    margin: 3rem 0 0 -1.5rem;
+  background: cyan;
+  width: 66%;
+  }
+  
+
+  h5 {
+    background-color: lime;
+    padding: 20px 50px;
+  }
+
+  .scroll{
+    margin: 1em;
+  font-size: 1.2em;
+  }
+  
+  
+  
+  
 
 h3{
     font-weight: 400;
