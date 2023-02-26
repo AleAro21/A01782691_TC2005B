@@ -74,12 +74,51 @@
     padding: 20px 50px;
   }
 
+  h4{
+    width: 8em;
+    height: 5em;
+    border: dotted;
+  }
+
   .scroll{
     margin: 1em;
   font-size: 1.2em;
+  overflow: scroll;
+  }
+
+  .container_3{
+    display:grid;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+  
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+
+  img {
+    border: 5px solid green;
+  }
+  /* Gray the second image by 40% and blur by 5px */
+  img:nth-of-type(2) {
+    filter: grayscale(0.4) blur(5px);
   }
   
   
+
   
   
 
