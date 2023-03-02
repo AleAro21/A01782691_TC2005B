@@ -6,7 +6,21 @@ div{
     box-sizing: border-box;
 }
 
-html, body{
+/* html, body{
     margin: 0;
     padding: 0;
+} */
+
+.flex-item{
+    margin: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    /* flex-direction: column; */
 }
