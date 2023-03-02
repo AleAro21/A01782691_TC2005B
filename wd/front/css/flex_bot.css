@@ -12,9 +12,8 @@ div{
 } */
 
 .flex-item{
-    margin: 5%;
     flex-shrink: 1;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .flex-container{
