@@ -130,7 +130,7 @@ h5{
 img{
     width: 100px;
     height: 100px;
-    margin: 100px;
+    margin: 30px;
 }
 
 .images{
@@ -139,5 +139,11 @@ img{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:center;
 }
+
+.image_text{
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
