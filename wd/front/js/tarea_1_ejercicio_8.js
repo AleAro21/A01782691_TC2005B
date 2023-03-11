@@ -10,4 +10,5 @@ function quitaDuplicados(arr) {
     return sinDuplicados;
   }
 
+  console.log('Ejercicio 8:')
 console.log(quitaDuplicados([1, 0, 1, 0, 10, 10, 0, 1]));

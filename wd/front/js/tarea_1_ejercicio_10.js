@@ -5,5 +5,5 @@ function esPalindromo(str) {
     return str === str.split("").reverse().join("");
   }
 
-
+  console.log('Ejercicio 10:')
 console.log(esPalindromo("anita lava la tina"));

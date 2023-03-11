@@ -11,4 +11,5 @@ function esPotenciaDeDos(num) {
     return true;
   }
 
+console.log('Ejercicio 2:')
 console.log(esPotenciaDeDos(16))

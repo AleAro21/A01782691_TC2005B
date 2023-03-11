@@ -30,4 +30,5 @@ function mediana_y_moda(lista) {
     return {mediana, moda};
   }
   
+  console.log('Ejercicio 12:')
   console.log(mediana_y_moda([10, 20, 30, 40, 50]))
