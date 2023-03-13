@@ -7,14 +7,14 @@ Gilberto Echeverria
 
 using UnityEngine;
 
-public class BallIn : MonoBehaviour
+public class Ballin_2 : MonoBehaviour
 {
-    [SerializeField] Score scoreObj;
+    [SerializeField] Score_2 scoreObj_2;
 
     // Detect two elements in contact
     void OnTriggerEnter2D()
     {
-       scoreObj.AddPoints(1); 
+       scoreObj_2.AddPoints_2(1); 
     }
 
    

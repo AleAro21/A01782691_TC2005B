@@ -27,7 +27,7 @@ public class Score : MonoBehaviour
     {
         score += amount;
         // Udate the text displayed on the screen
-        tmpObj.text = "Times Hit" + score;
+        tmpObj.text = "Times Hit: " + score;
         //Debug.Log("New score: " + score);
 
         if (score == maxScore) {
